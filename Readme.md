@@ -177,8 +177,6 @@ Opens at http://localhost:8501
 
 ## Project Structure
 
-# Project Structure
-
 ```text
 xai-risk-predictor/
 │
@@ -208,7 +206,7 @@ xai-risk-predictor/
     Large model files (Random Forest 385MB, Stacked Ensemble 772MB)
     are excluded due to GitHub file size limits.
     Run the notebook locally to generate all model files.
-
+```
 ---
 
 ## Future Scope
