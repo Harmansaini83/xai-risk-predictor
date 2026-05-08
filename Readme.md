@@ -176,15 +176,17 @@ Opens at http://localhost:8501
 ---
 
 ## Project Structure
- xai-risk-predictor/
+
+---
+xai-risk-predictor/
 │
-├── app1.py                    — Streamlit application
-├── requirements.txt           — All dependencies
-├── README.md                  — Project documentation
-├── RESEARCH.md                — Research paper details
+├── app.py                          # Streamlit application
+├── requirements.txt               # All dependencies
+├── README.md                      # Project documentation
+├── RESEARCH.md                    # Research paper details
 │
 ├── notebook/
-│   └── XAI_Credit_Risk.ipynb  — Complete training pipeline
+│   └── XAI_Credit_Risk.ipynb      # Complete training pipeline
 │
 ├── visuals/
 │   ├── visual_08_ensemble_comparison.png
@@ -194,16 +196,16 @@ Opens at http://localhost:8501
 │   ├── visual_20_system_architecture.png
 │   └── visual_22_rf_vs_shap_importance.png
 │
-└── models/
-├── feature_names.pkl      — Feature names list
-├── feature_names.txt      — Human readable features
-├── model_scaler.pkl       — StandardScaler
-└── model_xgboost.pkl      — XGBoost base model
-
-Note: Large model files (Random Forest 385MB,
-Stacked Ensemble 772MB) are excluded due to
-GitHub file size limits. Run the notebook to
-generate all model files locally.
+├── models/
+│   ├── feature_names.pkl          # Feature names list
+│   ├── feature_names.txt          # Human-readable features
+│   ├── model_scaler.pkl           # StandardScaler
+│   └── model_xgboost.pkl          # XGBoost base model
+│
+└── Note:
+    Large model files (Random Forest 385MB, Stacked Ensemble 772MB)
+    are excluded due to GitHub file size limits.
+    Run the notebook locally to generate all model files.
 
 ---
 
