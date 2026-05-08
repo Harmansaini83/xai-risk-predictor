@@ -177,7 +177,9 @@ Opens at http://localhost:8501
 
 ## Project Structure
 
----
+# Project Structure
+
+```text
 xai-risk-predictor/
 │
 ├── app.py                          # Streamlit application
