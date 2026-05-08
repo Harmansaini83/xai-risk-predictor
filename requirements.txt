@@ -1,0 +1,14 @@
+requirements:
+
+streamlit==1.56.0
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+shap
+lime
+imbalanced-learn
+joblib
+fpdf2
