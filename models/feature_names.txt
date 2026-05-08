@@ -1,0 +1,12 @@
+1. RevolvingUtilizationOfUnsecuredLines
+2. age
+3. NumberOfTime30-59DaysPastDueNotWorse
+4. DebtRatio
+5. MonthlyIncome
+6. NumberOfOpenCreditLinesAndLoans
+7. NumberOfTimes90DaysLate
+8. NumberRealEstateLoansOrLines
+9. NumberOfTime60-89DaysPastDueNotWorse
+10. NumberOfDependents
+11. DebtToIncomeRatio
+12. UtilisationDebtInteraction
